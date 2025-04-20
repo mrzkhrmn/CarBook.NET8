@@ -1,4 +1,4 @@
-namespace CarBook.WebApi
+namespace BlogApp.API
 {
     public class WeatherForecast
     {

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBook.Domain.Entities
+namespace CarBook.Application.Features.CQRS.Results.AboutResults
 {
-    public class Services
+    public class GetAboutQueryResult
     {
-        public int ServiceID { get; set; }
+        public int AboutID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public string IconUrl { get; set; }
+        public string ImageUrl { get; set; }
     }
 }
